@@ -1,0 +1,247 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Hi there",
+                "Good morning",
+                "Good evening",
+                "How are you?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "Greetings!",
+                "How can I assist you today?",
+                "Good day!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Talk to you later",
+                "See ya"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Have a great day!",
+                "Take care!"
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Thanks a lot",
+                "I appreciate it",
+                "Thank you very much"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "No problem!",
+                "My pleasure!"
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "Order status",
+                "Track my order",
+                "Order number 123",
+                "Can you tell me the status of my order?"
+            ],
+            "responses": [
+                "Your order is on the way!",
+                "Let me check the status of your order.",
+                "Please provide your order number.",
+                "Your order is scheduled to arrive tomorrow."
+            ]
+        },
+        {
+            "tag": "product_inquiry",
+            "patterns": [
+                "Do you have this in size M?",
+                "Is this available in blue?",
+                "What sizes are available?",
+                "Do you have more colors?",
+                "Is this product in stock?"
+            ],
+            "responses": [
+                "This product is available in multiple sizes and colors.",
+                "Please specify the size or color you're interested in.",
+                "Yes, this product is currently in stock.",
+                "We have it in several sizes including M."
+            ]
+        },
+        {
+            "tag": "return_policy",
+            "patterns": [
+                "What is your return policy?",
+                "How can I return a product?",
+                "Can I return this item?",
+                "What is the return period?",
+                "How do I get a refund?"
+            ],
+            "responses": [
+                "You can return any item within 30 days of purchase.",
+                "Our return policy allows returns within 30 days.",
+                "To return a product, please visit our returns page.",
+                "Refunds are processed within 5-7 business days."
+            ]
+        },
+        {
+            "tag": "shipping_info",
+            "patterns": [
+                "How long does shipping take?",
+                "What are the shipping options?",
+                "Do you offer express shipping?",
+                "Can I get free shipping?",
+                "What is the shipping cost?"
+            ],
+            "responses": [
+                "Standard shipping takes 3-5 business days.",
+                "We offer express shipping which takes 1-2 business days.",
+                "Free shipping is available on orders over $50.",
+                "Shipping costs vary depending on your location and the shipping option selected."
+            ]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": [
+                "What payment methods do you accept?",
+                "Can I pay with PayPal?",
+                "Do you accept credit cards?",
+                "Can I use my gift card?",
+                "What are the payment options?"
+            ],
+            "responses": [
+                "We accept credit cards, debit cards, PayPal, and gift cards.",
+                "Yes, you can pay with PayPal.",
+                "You can use any major credit card to make your purchase.",
+                "Gift cards are accepted as a form of payment."
+            ]
+        },
+        {
+            "tag": "discounts_offers",
+            "patterns": [
+                "Do you have any discounts?",
+                "Are there any sales going on?",
+                "Can I apply a coupon?",
+                "What offers are available?",
+                "How do I use a discount code?"
+            ],
+            "responses": [
+                "We currently have a 20% off sale on select items.",
+                "You can apply a coupon code at checkout.",
+                "Check our offers page for the latest discounts.",
+                "Discount codes can be entered during the checkout process."
+            ]
+        },
+        {
+            "tag": "store_hours",
+            "patterns": [
+                "What are your store hours?",
+                "When are you open?",
+                "Are you open on weekends?",
+                "What time do you close?",
+                "When do you open?"
+            ],
+            "responses": [
+                "Our store is open from 9 AM to 9 PM every day.",
+                "We are open on weekends from 10 AM to 8 PM.",
+                "Our online store is available 24/7.",
+                "We close at 9 PM every day."
+            ]
+        },
+        {
+            "tag": "store_locations",
+            "patterns": [
+                "Where are your stores located?",
+                "Do you have a store near me?",
+                "What is your nearest store?",
+                "How do I find a store?",
+                "Are there stores in my area?"
+            ],
+            "responses": [
+                "You can find our store locations on our website.",
+                "Please enter your zip code to find the nearest store.",
+                "We have stores in multiple locations across the country.",
+                "Visit our store locator page for more details."
+            ]
+        },
+        {
+            "tag": "order_cancellation",
+            "patterns": [
+                "How do I cancel my order?",
+                "Can I cancel my order?",
+                "I want to cancel my order",
+                "Is it possible to cancel my order?",
+                "Cancel order number 456"
+            ],
+            "responses": [
+                "You can cancel your order within 24 hours of placing it.",
+                "To cancel your order, please visit the order details page.",
+                "Order cancellation is available before the order is shipped.",
+                "Please provide your order number to cancel it."
+            ]
+        },
+        {
+            "tag": "order_modification",
+            "patterns": [
+                "Can I change my order?",
+                "How do I modify my order?",
+                "I want to update my order",
+                "Can I add items to my order?",
+                "Change order number 789"
+            ],
+            "responses": [
+                "You can modify your order within 24 hours of placing it.",
+                "To update your order, please visit the order details page.",
+                "Order modifications are possible before the order is shipped.",
+                "Please provide your order number to modify it."
+            ]
+        },
+        {
+            "tag": "loyalty_program",
+            "patterns": [
+                "Do you have a loyalty program?",
+                "How do I earn points?",
+                "What are the benefits of the loyalty program?",
+                "How can I join the loyalty program?",
+                "Tell me about your rewards program"
+            ],
+            "responses": [
+                "Yes, we have a loyalty program that offers exclusive benefits.",
+                "You can earn points with every purchase.",
+                "Join our loyalty program to enjoy discounts and special offers.",
+                "Sign up on our website to start earning points today."
+            ]
+        },
+        {
+            "tag": "out_of_stock",
+            "patterns": [
+                "What if an item is out of stock?",
+                "Can I be notified when an item is back in stock?",
+                "Do you restock sold-out items?",
+                "When will this be back in stock?",
+                "Notify me when this item is available"
+            ],
+            "responses": [
+                "You can sign up for notifications when an item is back in stock.",
+                "We regularly restock popular items.",
+                "Visit the product page to request a notification when it's available.",
+                "We will notify you via email when the item is back in stock."
+            ]
+        }
+    ]
+}
