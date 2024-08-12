@@ -242,6 +242,24 @@
                 "Visit the product page to request a notification when it's available.",
                 "We will notify you via email when the item is back in stock."
             ]
+        },
+        {
+            "tag": "default",
+            "patterns": [
+                "I don't understand",
+                "Can you say that again?",
+                "I don't know what you mean",
+                "Could you clarify?",
+                "What does that mean?",
+                "I didn't get that"
+            ],
+            "responses": [
+                "I'm sorry, I didn't understand that.",
+                "Could you please rephrase your question?",
+                "I didn't catch that. Could you ask it differently?",
+                "I'm here to help. Can you provide more details?",
+                "Sorry, I didn't understand. Can you please clarify?"
+            ]
         }
     ]
 }
